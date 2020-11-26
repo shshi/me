@@ -1,1 +1,1 @@
-web: gunicorn Shi:app --log-file -
+web: gunicorn shi-shaohua:app --log-file -
