@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 @app.route("/")
 
 def getPage():
-    return render_template('Shi_flask.htm', **locals())
+    return render_template('shi-shaohua_flask.htm', **locals())
 
 if __name__ == '__main__':
     app.run(debug=True).getPage()
